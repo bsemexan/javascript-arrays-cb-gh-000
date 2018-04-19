@@ -2,8 +2,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 var addElementToBeginningOfArray = (arr, elem) =>([elem, ...arr])
 
-var destructivelyAddElementToBeginningOfArray = (arr, elem) => { arr.unshift(elem); return arr;
-}
+var destructivelyAddElementToBeginningOfArray = (arr, elem) => { arr.unshift(elem); return arr;}
 
 var addElementToEndOfArray = (arr, elem) => ([...arr, elem])
 
