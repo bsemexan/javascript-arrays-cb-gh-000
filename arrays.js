@@ -11,4 +11,4 @@ function destructivelyAddElementToBeginningOfArray(arr, elem) {
 
 var addElementToEndOfArray = (arr, elem) => ([...arr, elem])
 
-var destructivelyAddElementToEndOfArray = (arr, elem) => ()
+var destructivelyAddElementToEndOfArray = (arr, elem) => (arr.push(elem))
