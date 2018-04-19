@@ -17,4 +17,4 @@ var accessElementInArray = (arr, i) => (arr[i])
 
 var destructivelyRemoveElementFromBeginningOfArray = (array) => {array.shift(); return array;}
 
-var removeElementFromBeginningOfArray = (arr) => (arr.slice(0)) 
+var removeElementFromBeginningOfArray = (arr) => (arr.slice(1)) 
